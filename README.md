@@ -71,6 +71,16 @@ php artisan key:generate
 php artisan migrate --seed
 ```
 
+### Resetting the Database (optional)
+
+If you want to reset your database and re-run all seeders:
+
+```bash
+php artisan migrate:fresh --seed
+```
+
+This will drop all tables, run the migrations, and repopulate them with demo data.
+
 ---
 
 ## Running the Project
