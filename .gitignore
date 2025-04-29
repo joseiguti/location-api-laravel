@@ -1,0 +1,38 @@
+# Laravel - General
+/vendor
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/logs/*.log
+.env
+.env.*
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+
+# IDEs and tools
+/.idea
+/.vscode
+/.fleet
+.DS_Store
+
+# OS and miscellaneous
+Thumbs.db
+
+# PHPUnit and code coverage
+/.phpunit.cache
+coverage/
+
+# Database
+*.sqlite
+database/database.sqlite
+
+# Laravel Telescope & Horizon
+storage/telescope
+storage/horizon
